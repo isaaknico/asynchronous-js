@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/isaaknico/asynchronous-js/issues"
   },
-  "homepage": "https://github.com/isaaknico/asynchronous-js#readme"
+  "homepage": "https://github.com/isaaknico/asynchronous-js#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

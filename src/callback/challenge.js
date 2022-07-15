@@ -36,7 +36,6 @@ fetchData(`${ API }/products`, function (error1, data1) { // Manda como args: la
         fetchData(`${ API }/categories/${ data2?.category?.id }`, function (error3, data3) { // Manda como args: la url completada con data obtenida en anterior llamada y la funcion callback con su lógica.
             if (error3) return console.error(error3);
             console.log(data1[0]);
-            console.log(data2);
             console.log(data2.title);
             console.log(data3.name);
             /**
@@ -56,7 +55,9 @@ fetchData(`${ API }/products`, function (error1, data1) { // Manda como args: la
                         'https://api.lorem.space/image?w=640&h=480&r=4375'
                     ]
                 }
+
                 Refined Steel Keyboard
+
                 Others
              */
         });

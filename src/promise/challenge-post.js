@@ -18,7 +18,7 @@ function postData(urlApi, data) {
     return response;
 }
 
-// Información a enviar
+// Información a enviar(de acuerdo a doc de Api)
 const data = {
     "title": "New Product Coourse",
     "price": 10999,
